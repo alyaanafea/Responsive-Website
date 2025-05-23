@@ -2,9 +2,16 @@
     --main-color: #f5df4e;
     --hover-color: #f2e173;
     /* --main-color: #6bdeb6;
-    --hover-color:#8cf0cd ; */
+    --hover-color:#8cf0cd ;
+    */
+    /* --main-color: #feb296;
+    --hover-color:#fac2b0 ; */
+    /* --main-color: #7fd4f9;
+    --hover-color: #9ddffb; */
     --border-color: rgb(202, 199, 199);
     --icon-hover: rgb(6, 20, 27);
+   
+
 }
 
 
@@ -83,7 +90,7 @@ body {
 
 .fa-brands:hover,
 .fa-bars:hover {
-    color: rgb(25, 139, 196);
+    color: var( --icon-hover);
     scale: 1.6;
     cursor: pointer;
 }
@@ -251,13 +258,14 @@ body {
     font-weight: 500;
     background-color: var(--main-color);
     color: black;
+    /* opacity: .8; */
     margin-top: 20px;
     transition: .2s;
     border-radius: 0px;
 }
 
 .landing-container a:hover {
-    color: rgba(0, 0, 0, 0.792);
+    /* color: white; */
     background-color: var(--hover-color);
 }
 
@@ -678,19 +686,19 @@ body {
 }
 
 .skill .color1 {
-    width: 50%;
+    width: 70%;
 }
 
 .skill .color2 {
-    width: 80%;
+    width: 90%;
 }
 
 .skill .color3 {
-    width: 30%;
+    width: 60%;
 }
 
 .skill .color4 {
-    width: 60%;
+    width: 70%;
 }
 
 .skill .color5 {
@@ -698,7 +706,7 @@ body {
 }
 
 .skill .color6 {
-    width: 50%;
+    width: 90%;
 }
 
 /* section 5 */
@@ -1133,7 +1141,7 @@ footer {
 }
 
 .footer-icons .fa-brands:hover {
-    color: cornflowerblue;
+    color: var( --icon-hover);
     scale: 1.8;
 }
 
